@@ -15,4 +15,4 @@ Ubuntu 的 Docker 安裝方式，請參閱 Docker-install 目錄內容。
 * PostGIS 2.3
 
 ## 建議與協作
-請於 Issues & Pull requests 給予指教。
+請於 GitHub Issues & Pull requests 給予指教。
