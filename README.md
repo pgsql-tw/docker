@@ -1,6 +1,6 @@
 [![Docker Automated buil](https://img.shields.io/docker/automated/pgsqltw/postgres-big.svg)](https://hub.docker.com/r/pgsqltw/postgres-big/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/pgsqltw/postgres-big.svg)](https://hub.docker.com/r/pgsqltw/postgres-big/)
-[![PostgreSQL台灣使用者社群](https://img.shields.io/badge/pgsql--tw-GitHub-blue.svg)](https://github.com/pgsql-tw)
+[![PostgreSQL台灣使用者社群](https://img.shields.io/badge/台灣使用者社群-PostgreSQL-blue.svg)](https://pgsql-tw.github.io)
 
 # PostgreSQL 大補帖
 基於 [PostgreSQL Official Docker Repository](https://hub.docker.com/_/postgres/)，增加安裝各式常用延伸功能，方便入門者進行功能試用。
