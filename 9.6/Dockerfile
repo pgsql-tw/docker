@@ -48,6 +48,7 @@ RUN set -ex; \
 
 ENV PG_MAJOR 9.6
 ENV PG_VERSION 9.6.4-1.pgdg80+1
+ENV POSTGIS_VERSION 2.3
 
 RUN echo 'deb http://apt.postgresql.org/pub/repos/apt/ jessie-pgdg main' $PG_MAJOR > /etc/apt/sources.list.d/pgdg.list
 
@@ -57,6 +58,7 @@ RUN apt-get update \
 	&& apt-get install -y \
 		postgresql-$PG_MAJOR=$PG_VERSION \
 		postgresql-contrib-$PG_MAJOR=$PG_VERSION \
+		postgresql-$PG_MAJOR-postgis-$POSTGIS_VERSION \
 	&& rm -rf /var/lib/apt/lists/*
 
 # make the sample config easier to munge (and "correct by default")
