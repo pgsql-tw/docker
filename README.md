@@ -5,5 +5,11 @@
 本專案需要您準備好 Docker 環境，並瞭解基本操作方式。\
 Ubuntu 的 Docker 安裝方式，請參閱 Docker-install 目錄內容。
 
+## Docker Hub
+* https://hub.docker.com/r/pgsqltw/postgres-big/
+### 9.6 (latest)
+* PostgreSQL 9.6
+* PostGIS 2.3
+
 ## 建議與協作
 請於 Issues & Pull requests 給予指教。
