@@ -9,6 +9,7 @@
 * 9.6 (latest)
    * PostgreSQL 9.6
    * PostGIS 2.3
+   * Multicorn latest (Python 3)
 
 ### Docker Installation
 本專案需要您準備好 Docker 環境，並瞭解基本操作方式。\
