@@ -19,6 +19,10 @@ Ubuntu 的 Docker 安裝方式，請參閱 GitHub 中 Docker-install 目錄內�
 ### Docker Hub
 * https://hub.docker.com/r/pgsqltw/postgres-big/
 
+```
+# docker pull pgsqltw/postgres-big
+```
+
 ### 啓動
 #### Using Docker
 * 預設連線: postgres://postgres:changeme/postgres
