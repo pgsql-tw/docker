@@ -59,6 +59,7 @@ RUN apt-get update \
 		postgresql-$PG_MAJOR=$PG_VERSION \
 		postgresql-contrib-$PG_MAJOR=$PG_VERSION \
 		postgresql-$PG_MAJOR-postgis-$POSTGIS_VERSION \
+		postgresql-$PG_MAJOR-python3-multicorn \
 	&& rm -rf /var/lib/apt/lists/*
 
 # make the sample config easier to munge (and "correct by default")
