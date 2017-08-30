@@ -75,7 +75,8 @@ VOLUME /var/lib/postgresql/data
 
 COPY docker-entrypoint.sh /usr/local/bin/
 RUN ln -s usr/local/bin/docker-entrypoint.sh / # backwards compat
-ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
+RUN chmod a+x /usr/local/bin/docker-entrypoint.sh
+ENTRYPOINT ["docker-entrypoint.sh"]
 
 EXPOSE 5432
 CMD ["postgres"]
