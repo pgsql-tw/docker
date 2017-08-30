@@ -6,6 +6,7 @@
 ## PostgreSQL 大補帖
 基於 [PostgreSQL Official Docker Repository](https://hub.docker.com/_/postgres/)，增加安裝各式常用延伸功能，方便入門者進行功能試用。
 
+[![Docker Build Statu](https://img.shields.io/docker/build/pgsqltw/postgres-big.svg)](https://hub.docker.com/r/pgsqltw/postgres-big/builds/)
 * 9.6 (latest)
    * PostgreSQL 9.6
    * PostGIS 2.3
