@@ -12,9 +12,17 @@ Ubuntu 的 Docker 安裝方式，請參閱 Docker-install 目錄內容。
 
 ## Docker Hub
 * https://hub.docker.com/r/pgsqltw/postgres-big/
-### 9.6 (latest)
-* PostgreSQL 9.6
-* PostGIS 2.3
+
+## 啓動
+```
+sudo docker run --name postgres-big -e POSTGRES_PASSWORD=changeme -d pgsqltw/postgres-big
+```
+
+## 使用 psql 連線
+```
+sudo docker run -it --rm --link postgres-big:postgres postgres psql -h postgres -U postgres
+```
+> 建議也可以在 host 主機中安裝 PostgreSQL Client 比較方便
 
 ## 建議與協作
 請於 GitHub Issues & Pull requests 給予指教。
