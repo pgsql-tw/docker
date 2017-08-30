@@ -1,10 +1,6 @@
+## PostgreSQL 大補帖
 [![Docker Automated buil](https://img.shields.io/docker/automated/pgsqltw/postgres-big.svg)](https://hub.docker.com/r/pgsqltw/postgres-big/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/pgsqltw/postgres-big.svg)](https://hub.docker.com/r/pgsqltw/postgres-big/)
-[![PostgreSQL小島故事](https://img.shields.io/badge/小島故事-PostgreSQL-blue.svg)](https://pgsql-tw.github.io/island/)
-[![PostgreSQL正體中文使用手冊](https://img.shields.io/badge/%E6%AD%A3%E9%AB%94%E4%B8%AD%E6%96%87%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8A-PostgreSQL-blue.svg)](https://www.gitbook.com/book/pgsql-tw/documents/details)
-[![PostgreSQL台灣使用者社群](https://img.shields.io/badge/台灣使用者社群-PostgreSQL-blue.svg)](https://pgsql-tw.github.io)
-
-## PostgreSQL 大補帖
 基於 [PostgreSQL Official Docker Repository](https://hub.docker.com/_/postgres/)，增加安裝各式常用延伸功能，方便入門者進行功能試用。
 
 [![Docker Build Statu](https://img.shields.io/docker/build/pgsqltw/postgres-big.svg)](https://hub.docker.com/r/pgsqltw/postgres-big/builds/)
@@ -34,7 +30,7 @@ $ sudo docker run --name postgres-big -e POSTGRES_PASSWORD=changeme -d pgsqltw/p
 
 #### Using docker-compose (方便設定多個 docker 及其配置參數)
 1. 下載 GitHub 裡對應版本目錄中的 docker-compose.yml
-   * 範例檔會在 host 建立一個 5433 port 對應到 postgres-big 裡的 PostgreSQL:5432。
+> 範例檔會在 host 建立一個 5433 port 對應到 postgres-big 裡的 PostgreSQL:5432。
 2. 安裝好 docker-compose
 3. 切換到 docker-compose.yml 的目錄中
 4. 預設無密碼。
@@ -67,3 +63,7 @@ $ sudo docker run -it --rm --link postgres-big:postgres postgres psql -h postgre
 
 ### 建議與協作
 請於 GitHub Issues & Pull requests 給予指教。
+
+[![PostgreSQL小島故事](https://img.shields.io/badge/小島故事-PostgreSQL-blue.svg)](https://pgsql-tw.github.io/island/)
+[![PostgreSQL正體中文使用手冊](https://img.shields.io/badge/%E6%AD%A3%E9%AB%94%E4%B8%AD%E6%96%87%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8A-PostgreSQL-blue.svg)](https://www.gitbook.com/book/pgsql-tw/documents/details)
+[![PostgreSQL台灣使用者社群](https://img.shields.io/badge/台灣使用者社群-PostgreSQL-blue.svg)](https://pgsql-tw.github.io)
