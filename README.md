@@ -14,13 +14,37 @@ Ubuntu 的 Docker 安裝方式，請參閱 Docker-install 目錄內容。
 * https://hub.docker.com/r/pgsqltw/postgres-big/
 
 ## 啓動
+### Using Docker
+* 預設連線: postgres://postgres:changeme/postgres
 ```
-sudo docker run --name postgres-big -e POSTGRES_PASSWORD=changeme -d pgsqltw/postgres-big
+$ sudo docker run --name postgres-big -e POSTGRES_PASSWORD=changeme -d pgsqltw/postgres-big
+```
+### Using docker-compose (方便設定多個 docker 及其配置參數)
+1. 下載 GitHub 裡對應版本目錄中的 docker-compose.yml
+   * 範例檔會在 host 建立一個 5433 port 對應到 postgres-big 裡的 PostgreSQL:5432。
+2. 安裝好 docker-compose
+3. 切換到 docker-compose.yml 的目錄中
+4. 預設無密碼。
+
+```
+$ sudo docker-compose up -d
+```
+
+## 停止
+### Using Docker
+```
+$ sudo docker stop postgres-big
+```
+
+### Using docker-compose
+* 切換到原 docker-compose.yml 同目錄
+```
+$ sudo docker-compose stop
 ```
 
 ## 使用 psql 連線
 ```
-sudo docker run -it --rm --link postgres-big:postgres postgres psql -h postgres -U postgres
+$ sudo docker run -it --rm --link postgres-big:postgres postgres psql -h postgres -U postgres
 ```
 > 建議也可以在 host 主機中安裝 PostgreSQL Client 比較方便
 
