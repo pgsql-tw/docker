@@ -7,8 +7,8 @@
 [![Docker Build Statu](https://img.shields.io/docker/build/pgsqltw/postgres-big.svg)](https://hub.docker.com/r/pgsqltw/postgres-big/builds/)
 * 9.6 (latest)
    * PostgreSQL 9.6
-   * PostGIS 2.3
-   * Multicorn latest (Python 3)
+   * [PostGIS 2.3](http://postgis.net/)
+   * [Multicorn 1.3.3 (Python 3)](http://multicorn.org)
 
 ### Docker Installation
 本專案需要您準備好 Docker 環境，並瞭解基本操作方式。\
@@ -65,6 +65,9 @@ $ sudo docker run -it --rm --link postgres-big:postgres postgres psql -h postgre
 ### 建議與協作
 請於 GitHub Issues & Pull requests 給予指教。
 
+---
+
+[![GitHub stars](https://img.shields.io/github/stars/pgsql-tw/docker.svg?style=social&label=Star)](https://github.com/pgsql-tw/docker)
 [![PostgreSQL小島故事](https://img.shields.io/badge/小島故事-PostgreSQL-blue.svg)](https://pgsql-tw.github.io/island/)
 [![PostgreSQL正體中文使用手冊](https://img.shields.io/badge/%E6%AD%A3%E9%AB%94%E4%B8%AD%E6%96%87%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8A-PostgreSQL-blue.svg)](https://www.gitbook.com/book/pgsql-tw/documents/details)
 [![PostgreSQL台灣使用者社群](https://img.shields.io/badge/台灣使用者社群-PostgreSQL-blue.svg)](https://pgsql-tw.github.io)
