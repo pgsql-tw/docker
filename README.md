@@ -7,6 +7,7 @@
 [![Docker Build Statu](https://img.shields.io/docker/build/pgsqltw/postgres-big.svg)](https://hub.docker.com/r/pgsqltw/postgres-big/builds/)
 * 9.6 (latest)
    * PostgreSQL 9.6
+   * PL/Python 2 (plpythonu)
    * [PostGIS 2.3](http://postgis.net/)
    * [Multicorn 1.3.3 (Python 3)](http://multicorn.org)
    * [Madlib 1.1.2](http://madlib.apache.org/)
