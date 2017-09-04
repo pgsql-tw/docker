@@ -9,6 +9,7 @@
    * PostgreSQL 9.6
    * [PostGIS 2.3](http://postgis.net/)
    * [Multicorn 1.3.3 (Python 3)](http://multicorn.org)
+   * [Madlib 1.1.2](http://madlib.apache.org/)
 
 ### Docker Installation
 本專案需要您準備好 Docker 環境，並瞭解基本操作方式。\
