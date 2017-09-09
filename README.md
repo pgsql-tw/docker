@@ -1,6 +1,7 @@
 ## PostgreSQL 大補帖
 [![Docker Automated buil](https://img.shields.io/docker/automated/pgsqltw/postgres-big.svg)](https://hub.docker.com/r/pgsqltw/postgres-big/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/pgsqltw/postgres-big.svg)](https://hub.docker.com/r/pgsqltw/postgres-big/)
+[![Gitter](https://img.shields.io/gitter/room/pgsql-tw/Lobby.js.svg)](https://gitter.im/pgsql-tw/Lobby)
 
 基於 [PostgreSQL Official Docker Repository](https://hub.docker.com/_/postgres/)，增加安裝各式常用延伸功能，方便入門者進行功能試用。
 
@@ -65,7 +66,7 @@ $ sudo docker run -it --rm --link postgres-big:postgres postgres psql -h postgre
 > 建議也可以在 host 主機中安裝 PostgreSQL Client 比較方便
 
 ### 建議與協作
-請於 GitHub Issues & Pull requests 給予指教。
+請於 [GitHub Issues](https://github.com/pgsql-tw/docker/issues) 給予指教，也可以來[聊天室](https://gitter.im/pgsql-tw/Lobby)跟我們聊聊。
 
 ---
 
