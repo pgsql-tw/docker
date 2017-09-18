@@ -1,5 +1,5 @@
 # vim:set ft=dockerfile:
-FROM debian:jessie
+FROM debian:jessie-slim
 
 LABEL org.label-schema.vendor = "台灣PostgreSQL使用者社群" \
       org.label-schema.url = "https://pgsql-tw.github.io"
@@ -33,7 +33,7 @@ RUN set -x \
 
 # make the "en_US.UTF-8" locale so postgres will be utf-8 enabled by default
 RUN apt-get update && apt-get install -y locales && rm -rf /var/lib/apt/lists/* \
-        && localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
+        && localedef -i en_US -c -f UTF-8 en_US.UTF-8
 ENV LANG en_US.utf8
 
 RUN mkdir /docker-entrypoint-initdb.d
