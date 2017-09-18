@@ -1,6 +1,9 @@
 # vim:set ft=dockerfile:
 FROM debian:jessie
 
+LABEL org.label-schema.vendor = "台灣PostgreSQL使用者社群" \
+      org.label-schema.url = "https://pgsql-tw.github.io"
+
 RUN set -ex; \
         if ! command -v gpg > /dev/null; then \
                 apt-get update; \
