@@ -60,7 +60,7 @@ $ sudo docker-compose stop
 ### 使用 psql 連線
 
 ```
-$ sudo docker run -it --rm --link postgres-big:postgres postgres psql -h postgres -U postgres
+$ sudo docker run -it postgres-big psql -U postgres postgres
 ```
 
 > 建議也可以在 host 主機中安裝 PostgreSQL Client 比較方便
