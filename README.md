@@ -7,9 +7,10 @@
 
 [![Docker Build Statu](https://img.shields.io/docker/build/pgsqltw/postgres-big.svg)](https://hub.docker.com/r/pgsqltw/postgres-big/builds/)
 * 10 (latest)
-   * PostgreSQL 10
-   * PL/Python 2 (plpythonu)
-   * [PostGIS 2.4](http://postgis.net/)
+   - PostgreSQL 10
+
+   - PL/Python 2 (plpythonu)
+   - [PostGIS 2.4](http://postgis.net/)
 * 9.6
    * PostgreSQL 9.6
    * PL/Python 2 (plpythonu)
