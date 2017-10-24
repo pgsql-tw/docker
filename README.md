@@ -6,7 +6,11 @@
 基於 [PostgreSQL Official Docker Repository](https://hub.docker.com/_/postgres/)，增加安裝各式常用延伸功能，方便入門者進行功能試用。
 
 [![Docker Build Statu](https://img.shields.io/docker/build/pgsqltw/postgres-big.svg)](https://hub.docker.com/r/pgsqltw/postgres-big/builds/)
-* 9.6 (latest)
+* 10 (latest)
+   * PostgreSQL 10
+   * PL/Python 2 (plpythonu)
+   * [PostGIS 2.4](http://postgis.net/)
+* 9.6
    * PostgreSQL 9.6
    * PL/Python 2 (plpythonu)
    * [PostGIS 2.3](http://postgis.net/)
