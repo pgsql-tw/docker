@@ -1,0 +1,4 @@
+db:
+  image: pgsqltw/postgres-big
+  ports:
+    - "5433:5432"
