@@ -19,8 +19,8 @@
    * [Madlib 1.1.2](http://madlib.apache.org/)
 
 ### Docker Installation
-本專案需要您準備好 Docker 環境，並瞭解基本操作方式。\
-Ubuntu 的 Docker 安裝方式，請參閱 GitHub 中 Docker-install 目錄內容。
+本專案需要您準備好 Docker 環境，並瞭解基本操作方式。
+- [docker-install](https://github.com/docker/docker-install)
 
 ### Docker Hub
 * https://hub.docker.com/r/pgsqltw/postgres-big/
